@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(123, 119, 200);
+}
+
+h1{
+    font-size: 50px;
+}
+
+ul{
+    font-size: 25px;
+    color: white;
+}
+
+hr{
+    border: 1px solid rgb(0, 0, 0);
+}
