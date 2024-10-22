@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Primaria</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href= "{% static 'estilos.css' %}">
+  <script src="{% static 'scripts.js' %}"></script>
+</head>
+
+<body>
+  <h1>Listado de alumnosss!</h1>
+  <hr>
+  <ul>
+    {% for i in misalumnos %}
+     <li> <a href="alumno/{{i.id}}"> {{i.nombre}} </li>
+
+    {% endfor %}
+  </ul>
+</body>
+</html>
+
